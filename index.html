@@ -1,0 +1,40 @@
+<html>
+  <head>
+
+    <title>Reconocimiento de Sonidos de Animales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Combo&family=Comforter&family=Cookie&family=Dancing+Script&family=DynaPuff&family=Lobster&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body> 
+    <div class="col-xs-12 header_div text-center">
+      <h2>Reconocimiento de Sonidos de Animales</h2>
+      <p>NOTA: Reproduce diferentes sonidos como ladridos o maullidos</p>
+    </div>
+
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-info" onclick="startClassification();">Comienza</button>
+        <h3 id="resultado">Escucho: -</h3>
+        <br>
+            <img src="goat.png" id="cabra" style="visibility: hidden;"width="300" height="250">
+            <img src="rooster.gif" id="gallo"  style="visibility: hidden;" width="300" height="250">
+            <img src="microfono.gif" id="micro" width="300" height="250">
+            <img src="cat.gif" id="gato" style="visibility: hidden;" width="300" height="250">
+            <img src="pig.gif" id="puerco" style="visibility: hidden;" width="300" height="250">
+            <img src="dog.gif" id="perro" style="visibility: hidden;" width="300" height="250">
+            <img src="snake.gif" id="culebrita" style="visibility: hidden;" width="300" height="250">
+            <img src="cow.png" id="vaca" style="visibility: hidden;" width="300" height="250">
+    </center>
+    </div>    
+    <div class="copy_right_footer">Creado por Alex Mariles </div>
+    <script src="main.js"></script>
+  </body>
+</html>
